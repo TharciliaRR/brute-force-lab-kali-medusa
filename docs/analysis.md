@@ -1,31 +1,44 @@
-# 🔎 Análise de Segurança
+# 🔎 Security Analysis
 
-## Vulnerabilidades encontradas
+## Identified Vulnerabilities
 
 ### FTP
-- Uso de credenciais padrão
-- Sem proteção contra brute force
+- Use of default/weak credentials
+- No protection against brute force attacks
 
-### Web (DVWA)
-- Ausência de lockout
-- Senhas fracas
+### Web Application (DVWA)
+- Lack of account lockout mechanisms
+- Weak and predictable passwords
 
 ### SMB
-- Password spraying bem-sucedido
+- Successful password spraying attack
+- Multiple users sharing weak passwords
 
 ---
 
-## Impacto
+## Impact
 
-- Acesso não autorizado
-- Comprometimento de dados
-- Escalada de privilégios
+- Unauthorized access to systems
+- Potential data compromise
+- Increased risk of privilege escalation
+- Exposure of internal services
 
 ---
 
-## Recomendações
+## Risk Level
 
-- MFA
-- Políticas de senha forte
-- Monitoramento de logs
+**High**
+
+The identified vulnerabilities allow attackers to gain access using simple techniques, indicating insufficient security controls.
+
+---
+
+## Recommendations
+
+- Implement Multi-Factor Authentication (MFA)
+- Enforce strong password policies
+- Enable account lockout after failed attempts
+- Monitor authentication logs
+- Apply rate limiting on authentication services
+
 
