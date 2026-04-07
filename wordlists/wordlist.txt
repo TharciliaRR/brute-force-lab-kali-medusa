@@ -1,5 +1,5 @@
 
-## Lista de senhas:
+## List of passwords:
 123456
 password
 admin
