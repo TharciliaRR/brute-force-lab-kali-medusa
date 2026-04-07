@@ -192,7 +192,13 @@ This project was developed for educational purposes only in a controlled environ
 This lab was designed as part of a cybersecurity learning journey, focusing on offensive security techniques and practical attack simulation.
 
 ---
+## 📄 Pentest Report
 
+A full professional penetration testing report is available:
+
+👉 [Download PDF](docs/pentest_report_bruteforce_lab.pdf)
+
+---
 ## 👨‍💻 Author
 
 Tharcilia Rollemberg Cybersecurity enthusiast transitioning into offensive security and ethical hacking.
