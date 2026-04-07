@@ -1,4 +1,4 @@
-## Lista de usuários:
+## User list:
 root
 admin
 user
