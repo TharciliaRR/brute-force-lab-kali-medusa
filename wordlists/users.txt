@@ -1,1 +1,7 @@
-
+## Lista de usuários:
+root
+admin
+user
+msfadmin
+guest
+test
