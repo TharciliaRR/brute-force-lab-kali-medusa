@@ -1,23 +1,43 @@
-# 🧪 Metodologia
+# 🧪 Methodology
 
-## Etapas do teste
+## Testing Approach
 
-1. Reconhecimento (Nmap)
-2. Enumeração (enum4linux)
-3. Ataque (Medusa / Hydra)
-4. Validação de acesso
-5. Documentação
+The assessment followed a structured penetration testing methodology:
+
+1. Reconnaissance (Nmap scanning)
+2. Service Enumeration (FTP, SMB, HTTP)
+3. Credential Attacks (Medusa, Hydra)
+4. Access Validation
+5. Documentation and Reporting
 
 ---
 
-## Tipo de ataque
+## Attack Techniques
 
-- Brute Force
+- Brute Force Attack
 - Password Spraying
 
 ---
 
-## Referência
+## Tools Used
 
-MITRE ATT&CK: T1110
+- Kali Linux
+- Medusa
+- Hydra
+- Nmap
+- Enum4linux
+
+---
+
+## Framework Reference
+
+MITRE ATT&CK:
+
+- T1110 — Brute Force
+
+---
+
+## Notes
+
+All tests were performed in a controlled lab environment (Metasploitable 2), ensuring no impact on real systems.
 
